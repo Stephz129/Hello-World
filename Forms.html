@@ -8,9 +8,12 @@
 
 <body>
     <h1>Register</h1>
+
     <form action="https://www.google.com">
-        <input name="username" type="text" placeholder="username">
-        <input name="password" type="password" placeholder="password" minlength="16" required>
+        <label for="email">Email:</label>
+        <input id="email" name="email" type="email" placeholder="email">
+        <label for="password"> Password:</label>
+        <input id="password" name="password" type="password" placeholder="password" maxlength="16" required>
         <input type="submit" value="submit">
 
 
