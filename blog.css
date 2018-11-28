@@ -1,0 +1,15 @@
+body{
+    border: 4% #bdc7cf;
+    padding: 2;
+}
+
+h1{
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 0.3em;
+    color: #3098dd;
+}
+
+p{
+    margin-left: 10px gray;
+}
